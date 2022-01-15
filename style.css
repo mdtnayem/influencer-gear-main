@@ -178,10 +178,17 @@ main .title{
     }
     .about-us-area {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns:1fr;
+        grid-gap:20px;
+        justify-items: center;
+        
     }
     .about-us-area .details{
-        margin: 20px 50px;
+        
+        padding:70px 0;
+        box-shadow: none;
+        box-shadow: .5px .5px 30px lightgray;
+        margin: 0 11%;
         
         
     }
