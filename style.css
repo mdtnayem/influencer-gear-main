@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+.container{
+    width:80%;
+    margin: auto;
+    border:1px solid black;
+}
+.half-width{
+    width: 50%;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    color:white;
+}
+/* header bottom area start */
+#header-bottom-left{
+    margin-top: 50px;
+}
+.header-bottom{
+    display: flex;
+}
+.half-width img{
+    width: 90%;
+    border:1px solid;
+    border-radius: 50%;
+}
+/* header bottom area end */
+/* Main area start */
+.products-area{
+    margin:70px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.products-area .product{
+    padding:15px;
+    box-shadow: .5px .5px 30px lightgray;
+    border-radius: 10px;
+}
+/* Main area end */
