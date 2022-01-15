@@ -1,40 +1,91 @@
+/* Google fonts start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Google fonts end */
 body{
     margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 52px;
+    color: #3A3A3A;
+    line-height: 30px;
+}
+h2{
+    font-size: 40px;
+    color: #3A3A3A;
+}
+h3{
+    font-size: 30px;
+    color: #3A3A3A;
+}
+h4{
+    font-size: 24px;
+    color: #3A3A3A;
+    
+}
+p{
+    color: #3A3A3A;
 }
 .container{
-    width:80%;
+    width:90%;
     margin: auto;
-    border:1px solid black;
+   
 }
 .half-width{
     width: 50%;
 }
 .btn{
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 12px 40px;
     background-color: #E02C6D;
-    border-radius: 20px;
+    border-radius: 25px;
     color:white;
+    font-size: 16px;
+    font-weight: 700;
+    
 }
+/* header top area start */
+.header-top{
+    margin:50px 0;
+}
+/* header top area end */
 /* header bottom area start */
-#header-bottom-left{
-    margin-top: 50px;
-}
 .header-bottom{
     display: flex;
+    padding:50px 0;
+    border-bottom: 1px solid lightgray;
 }
-.half-width img{
-    width: 90%;
-    border:1px solid;
-    border-radius: 50%;
+#header-bottom-left{
+    margin-top: 55px;
+}
+#header-bottom-left p{
+    font-weight: 600;
+    font-size: 16px;
+    padding:30px 0;
+}
+.btn:hover{
+    background-color: green;
+}
+#banner-img{
+    transition: .5s;
+}
+#banner-img img{
+    width: 85%;
+}
+
+#banner-img:hover{
+    transform:scale(1.03);
 }
 /* header bottom area end */
 /* Main area start */
+main .title{
+    text-align: center;
+}
 .products-area{
     margin:70px 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
+    grid-gap:20px;
     justify-items: center;
 }
 .products-area .product{
@@ -42,4 +93,38 @@ body{
     box-shadow: .5px .5px 30px lightgray;
     border-radius: 10px;
 }
+.product img{
+    width: 100%;
+}
+.product h2,h4{
+    font-weight: 400;
+    line-height: 10px;
+    color: #18191F;
+}
+.product i{
+    color:orange;
+}
+.product p{
+    color: #787885;
+}
 /* Main area end */
+/* About us area start */
+.about-us-area{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.about-us-area .details{
+    text-align: center;
+    
+}
+.details i{
+    
+    padding:10px;
+    
+    font-size: 30px;
+}
+/* About us area end */
+.footer-area{
+    text-align:center ;
+}
