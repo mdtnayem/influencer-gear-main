@@ -213,7 +213,7 @@ main .title{
         display: grid;
         grid-template-columns:repeat(2,1fr);
         grid-gap:20px;
-        justify-items: center;
+        justify-content: center;
     }
     .about-us-area {
         display: grid;
