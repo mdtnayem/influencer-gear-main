@@ -154,7 +154,7 @@ main .title{
 /* =============================responsive area============================ */
 @media only screen and (max-width:767px){
     h1{
-        font-size: 45px;
+        font-size: 40px;
     }
     .header-top-left{
         text-align: center;
@@ -174,13 +174,13 @@ main .title{
         display: grid;
         grid-template-columns:1fr;
         grid-gap:20px;
-        justify-items: center;
+        justify-content: center;
     }
     .about-us-area {
         display: grid;
         grid-template-columns:1fr;
         grid-gap:20px;
-        justify-items: center;
+        justify-content: center;
         
     }
     .about-us-area .details{
@@ -218,6 +218,7 @@ main .title{
     .about-us-area {
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        justify-content: center;
     }
     .about-us-area .details{
         margin:20px 50px;
