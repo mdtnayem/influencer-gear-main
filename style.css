@@ -6,7 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 52px;
+    font-size: 45px;
     
     line-height: 30px;
 }
@@ -20,6 +20,10 @@ h3{
 }
 h4{
     font-size: 24px;
+}
+h5{
+    font-size: 18px;
+    font-weight: 400;
 }
 .center{
     text-align: center;
@@ -124,6 +128,7 @@ main .title{
 }
 .about-us-area .details{
     text-align: center;
+    box-shadow: .5px .5px 30px lightgray;
     
 }
 .details i{
@@ -147,7 +152,7 @@ main .title{
     padding:0 12px;
 }
 /* =============================responsive area============================ */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width:767px){
     h1{
         font-size: 45px;
     }
@@ -177,6 +182,38 @@ main .title{
     }
     .about-us-area .details{
         margin: 20px 50px;
-        box-shadow: .5px .5px 30px lightgray;
+        
+        
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    
+    .header-top-left{
+        text-align: center;
+    }
+    .header-bottom{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .half-width{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .products-area{
+        margin:70px 0;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap:20px;
+        justify-items: center;
+    }
+    .about-us-area {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-us-area .details{
+        margin:20px 50px;
+        
     }
 }
